@@ -17,14 +17,14 @@ remappings = [
 
 [rpc_endpoints]
 mainnet = "${MAINNET_RPC_URL}"
-holesky = "${HOLESKY_RPC_URL}"
+holesky = "${https://holesky.infura.io/v3/c06051a5f8cc4cd9986c31f640e228cb}"
 sepolia = "${SEPOLIA_RPC_URL}"
 anvil = "${ANVIL_RPC_URL}"
 
 [etherscan]
-mainnet = { key = "${ETHERSCAN_API_KEY}" }
-sepolia = { key = "${ETHERSCAN_API_KEY}" }
-holesky = { key = "${ETHERSCAN_API_KEY}" }
+mainnet = { key = "${6RF8N21HF33VT5GJ9BWS1YQVETTE3ZY95A}" }
+sepolia = { key = "${6RF8N21HF33VT5GJ9BWS1YQVETTE3ZY95A}" }
+holesky = { key = "${6RF8N21HF33VT5GJ9BWS1YQVETTE3ZY95A}" }
 
 [fmt]
 bracket_spacing = false
